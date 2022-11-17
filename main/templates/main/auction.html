@@ -114,6 +114,37 @@
     </div>
     <!-- Domain boxes section ends here -->
 
-    
+
+    <style>
+
+        .btn {
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+        }
+        
+        .enableEthereumButton {
+          background-color: #037dd6;
+        }
+        .sendEthButton {
+          background-color: #4CAF50;
+        }
+        
+        </style>
+        
+        
+        <button class="enableEthereumButton btn">Enable Ethereum</button>
+        <button class="sendEthButton btn">Send Eth</button>
+        <h3>Account: <span class="showAccount"></span></h3>
+        
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+        <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+        <script src="{% static 'js/index.js' %}"></script>
+
+     
 
 {% endblock %}

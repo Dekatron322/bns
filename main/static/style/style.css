@@ -646,12 +646,12 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a.active {
 }
 
 .navbar-brand>img {
-    width: 120px;
-    margin: 13px 0 0;
+    width: 80px;
+    margin: 13px 13px 13px;
 }
 
 .navbar-brand {
-    padding: 0;
+    padding: 10px;
 }
 
 a.navbar-btn {
